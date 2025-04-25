@@ -1,0 +1,12 @@
+length=float(input("Enter length in feet : "))
+list=[length,length*12,length/3,length/5280,length*304.8,length*30.48,length*0.3048,length*0.0003048]
+print("convert using :")
+print("for Inches enter 1")
+print("for Yards enter 2")
+print("for Miles enter 3")
+print("for Millimeters enter 4")
+print("for Centimeters enter 5")
+print("for Meters enter 6")
+print("for Kilometers enter 7\n")
+n=int(input())
+print(list[n])

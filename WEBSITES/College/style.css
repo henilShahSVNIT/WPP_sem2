@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box; /*border is counted in the height width*/
+}
+
+.navbar{
+    height: 80px;
+    background-color: #d85600;
+    color:white;
+    display: flex; /*to bring everything in same line*/
+    align-items: center; 
+    justify-content: space-between;
+}
+.navlogo{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 50px;
+    width:140px;
+}
+.logo {
+    position: sticky;
+    z-index: 3;
+    background-image: url(logo.png);
+    height: 50px;
+    background-position: center;
+    background-size:40%;
+    background-repeat: no-repeat ;
+    top:0px;
+}
+.sardar{
+    position: sticky;
+    z-index: 3;
+    background-image: url(sardar.png);
+    height: 50px;
+    background-position: center;
+    background-size:40%;
+    background-repeat: no-repeat ;
+    top:0px;
+}
+.logo:hover , .sardar:hover{
+    background-size: 42%;
+}
+
+.navname{
+    height: 80px;
+    color:white;
+    display: flex; /*to bring everything in same line*/
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between;
+}
+.langname{
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+.panel{
+    height: 40px;
+    background-color: #ffffff;
+    color:rgb(66, 66, 66);
+    display: flex; /*to bring everything in same line*/
+    align-items: center; 
+    justify-content: space-around;
+    display : flex;
+    flex-direction: row;
+    border-bottom: rgb(49, 49, 49) solid 1px;
+    position: sticky;
+    top:0px;
+    font-size: 1.3rem;
+}
+.items{
+    height: 40px;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:100px;
+}
+.top , .bottom , .best , .foot ,.acc,.theme {
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.top:hover, .bottom:hover , .best:hover , .foot:hover ,.acc:hover,.theme:hover {
+    font-size:1.4rem;
+    color:rgb(61, 61, 61);
+}
+
+.infor{
+    height: 800px;
+    color:white;
+    display: flex; /*to bring everything in same line*/
+    align-items: center; 
+    justify-content: space-around;
+}
+.box{
+    height: 800px;
+    width:350px;
+    display: flex; /*to bring everything in same line*/
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-around;
+}
+.smallbox{
+    width:350px;
+    height: 90px;
+    font-size: 2rem;
+    background-color: #d85600;
+    display: flex; /*to bring everything in same line*/
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    border-radius: 4px;
+}
+.smallbox:hover{
+    color: #f8d7c0;
+}
+
+.hero {
+    height:800px;
+    background-image: url(HERO.jpg);
+    background-position: bottom;
+    background-size: cover;
+    width : 1100px;
+    border-radius: 10px;
+}
+
+.topic{
+    text-align: center;
+    margin: 7px;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.certificates{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+}
+.cer1 {
+    height:250px;
+    width: 400px;
+    background-image: url(cer1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.cer2 {
+    height:250px;
+    width: 400px;
+    background-image: url(cer2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.cer3 {
+    height:250px;
+    width: 400px;
+    background-image: url(cer3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.cer4 {
+    height:250px;
+    width: 400px;
+    background-image: url(cer4.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.cer1:hover,.cer2:hover,.cer3:hover,.cer4:hover{
+    border:2px solid  #d85600;
+}
+
+.end{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 190px;
+    background-color:#773001;
+    color: #ffffff;
+}
+.endfirst{
+    display: flex;
+
+    justify-content: space-around;
+}
+.allbox{
+    height:190px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.boxtopic{
+    color: #ffffff;
+    margin:7px;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.subtopic{
+    color: #ffffff;
+    margin: 3px 7px 2px 7px;
+    font-weight: 700;
+}
+.subtopic:hover{
+    color: #d85600;
+}
+
